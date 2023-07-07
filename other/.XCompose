@@ -1,0 +1,88 @@
+﻿# for Emacs: -*- coding: utf-8 -*-
+#
+# User-defined key sequences for WinCompose
+# by Sam Hocevar <sam@hocevar.net>
+#
+
+# Key sequences have the following form:
+#
+# <Multi_key> <key>… : "resulting text"
+#
+# All key names must be enclosed in <angle brackets>.
+# The first key must be <Multi_key>.
+# The remaining keys can be single characters, like <a>, <B>, <7>,
+# <.>, <@>, or from the following list:
+#
+#     Up, Down, Left, Right (the arrow keys), space, exclam, quotedbl,
+#     numbersign, dollar, percent, ampersand, apostrophe, parenleft,
+#     parenright, asterisk, plus, comma, minus, period, slash, colon,
+#     semicolon, less, equal, greater, at, bracketleft, backslash,
+#     bracketright, asciicircum, underscore, grave, braceleft, bar,
+#     braceright, asciitilde.
+#
+# For more definitions, see the files in C:\Program Files\WinCompose\res.
+
+<Multi_key> <h> <w> : "Hello, world!"
+
+# Konami code
+# <Multi_key> <Multi_key> <Up> <Up> <Down> <Down> <Left> <Right> <Left> <Right> <b> <a> : "ᕙ༼ຈل͜ຈ༽ᕗ" # Mighty Donger
+
+# Russian Ruble sign
+#<Multi_key> <P> <minus> : "₽"    U20bd # RUBLE SIGN
+#<Multi_key> <p> <minus> : "₽"    U20bd # RUBLE SIGN
+
+
+# Minus sign
+# <Multi_key> <minus> <minus> <equal> : "−"    U2212 # MINUS SIGN
+
+# Various tests
+# <Multi_key> <t> <f> : "(ﾉಥ益ಥ）ﾉ彡┻━┻"  # Table flip like a boss
+# <Multi_key> <l> <f> : "( ͡° ͜ʖ ͡°)"        # Lenny face
+# <Multi_key> <s> <f> : "¯\\_(ツ)_/¯"     # Shrug face
+
+<Multi_key> <u> <0> <0> <7> <b>: "{"    U007B # LEFT CURLY BRACKET
+<Multi_key> <г> <0> <0> <7> <и>: "{"    U007B # LEFT CURLY BRACKET
+<Multi_key> <u> <0> <0> <5> <b>: "["    U005B # LEFT SQUARE BRACKET
+<Multi_key> <г> <0> <0> <5> <и>: "["    U005B # LEFT SQUARE BRACKET
+<Multi_key> <u> <0> <0> <2> <8>: "("    U0028 # LEFT PARENTHESIS
+<Multi_key> <г> <0> <0> <2> <8>: "("    U0028 # LEFT PARENTHESIS
+<Multi_key> <u> <0> <0> <7> <d>: "}"    U007D # RIGHT CURLY BRACKET
+<Multi_key> <г> <0> <0> <7> <в>: "}"    U007D # RIGHT CURLY BRACKET
+<Multi_key> <u> <0> <0> <5> <d>: "]"    U005D # RIGHT SQUARE BRACKET
+<Multi_key> <г> <0> <0> <5> <в>: "]"    U005D # RIGHT SQUARE BRACKET
+<Multi_key> <u> <0> <0> <2> <9>: ")"    U0029 # RIGHT PARENTHESIS
+<Multi_key> <г> <0> <0> <2> <9>: ")"    U0029 # RIGHT PARENTHESIS 
+ 
+<Multi_key> <u> <0> <0> <7> <e>: "~"    U007E # TILDE
+<Multi_key> <г> <0> <0> <7> <у>: "~"    U007E # TILDE
+<Multi_key> <u> <0> <0> <2> <1>: "!"    U0021 # EXCLAMATION MARK
+<Multi_key> <г> <0> <0> <2> <1>: "!"    U0021 # EXCLAMATION MARK  
+<Multi_key> <u> <0> <0> <4> <0>: "@"    U0040 # COMMERCIAL AT
+<Multi_key> <г> <0> <0> <4> <0>: "@"    U0040 # COMMERCIAL AT
+<Multi_key> <u> <2> <1> <1> <6>: "№"   U2116 # NUMERO SIGN
+<Multi_key> <г> <2> <1> <1> <6>: "№"   U2116 # NUMERO SIGN
+<Multi_key> <u> <0> <0> <2> <4>: "$"    U0024 # DOLLAR SIGN
+<Multi_key> <г> <0> <0> <2> <4>: "$"    U0024 # DOLLAR SIGN
+<Multi_key> <u> <0> <0> <2> <5>: "%"    U0025 # percent sign
+<Multi_key> <г> <0> <0> <2> <5>: "%"    U0025 # percent sign
+<Multi_key> <u> <0> <0> <5> <e>: "^"    U005E # CIRCUMFLEX ACCENT
+<Multi_key> <г> <0> <0> <5> <у>: "^"    U005E # CIRCUMFLEX ACCENT
+<Multi_key> <u> <0> <0> <2> <6>: "&"    U0026 # AMPERSAND
+<Multi_key> <г> <0> <0> <2> <6>: "&"    U0026 # AMPERSAND
+<Multi_key> <u> <0> <0> <2> <3>: "#"    U0023 # number sign
+<Multi_key> <г> <0> <0> <2> <3>: "#"    U0023 # number sign
+
+<Multi_key> <u> <0> <0> <2> <7>: "'"    U0027 # APOSTROPHE
+<Multi_key> <г> <0> <0> <2> <7>: "'"    U0027 # APOSTROPHE
+<Multi_key> <u> <0> <0> <3> <b>: ";"    U003B # SEMICOLON
+<Multi_key> <г> <0> <0> <3> <и>: ";"    U003B # SEMICOLON
+<Multi_key> <u> <0> <0> <3> <a>: ":"    U003A # COLON
+<Multi_key> <г> <0> <0> <3> <ф>: ":"    U003A # COLON
+<Multi_key> <u> <0> <0> <3> <f>: "?"    U003F # QUESTION MARK
+<Multi_key> <г> <0> <0> <3> <а>: "?"    U003F # QUESTION MARK
+
+<Multi_key> <u> <0> <0> <3> <c>: "<"    U003C # LESS-THAN SIGN
+<Multi_key> <г> <0> <0> <3> <с>: "<"    U003C # LESS-THAN SIGN
+<Multi_key> <u> <0> <0> <3> <e>: ">"    U003E # GREATER-THAN SIGN
+<Multi_key> <г> <0> <0> <3> <у>: ">"    U003E # GREATER-THAN SIGN
+
