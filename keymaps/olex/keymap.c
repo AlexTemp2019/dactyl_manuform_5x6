@@ -22,8 +22,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_LOWER] = LAYOUT_5x6(
         UC(0x007E),UC(0x0021),UC(0x0040),UC(0x2116),UC(0x0024),UC(0x0025),       UC(0x005E),UC(0x0026), KC_PSLS, KC_PAST, KC_PMNS, UC(0x0023),
         KC_TRNS   ,UC(0x0027),UC(0x003B),UC(0x003A),UC(0x003F),UC(0x007B),       UC(0x007D), KC_P7    , KC_P8  , KC_P9  , KC_PPLS, KC_BSPC,
-        KC_TRNS   , KC_HOME  , KC_PGUP  , KC_PGDN  , KC_END   ,UC(0x005B),       UC(0x005D), KC_P4    , KC_P5  , KC_P6  , KC_PCMM, KC_DEL ,
-        KC_TRNS   , KC_LEFT  , KC_UP    , KC_DOWN  , KC_RGHT  ,UC(0x0028),       UC(0x0029), KC_P1    , KC_P2  , KC_P3  , KC_PEQL, KC_CALC,
+        KC_TRNS   , KC_LEFT  , KC_UP    , KC_DOWN  , KC_RGHT  ,UC(0x005B),       UC(0x005D), KC_P4    , KC_P5  , KC_P6  , KC_PCMM, KC_DEL ,
+        KC_TRNS   , KC_HOME  , KC_PGUP  , KC_PGDN  , KC_END   ,UC(0x0028),       UC(0x0029), KC_P1    , KC_P2  , KC_P3  , KC_PEQL, KC_CALC,
                                UC(0x003C),UC(0x003E),                                                   KC_P0  , KC_PDOT,
                                              KC_TRNS  , KC_TRNS,                               LCA(KC_LSFT), KC_TRNS,
                                                         KC_TRNS  , KC_TRNS,      KC_TRNS , KC_RSFT,
